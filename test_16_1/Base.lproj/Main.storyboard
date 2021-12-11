@@ -31,10 +31,20 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJ7-iX-U0W">
+                                <rect key="frame" x="8" y="608" width="398" height="121"/>
+                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button2"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="GJ7-iX-U0W" firstAttribute="height" secondItem="PNT-If-pZZ" secondAttribute="height" id="4ll-UT-wkj"/>
+                            <constraint firstItem="GJ7-iX-U0W" firstAttribute="top" secondItem="PNT-If-pZZ" secondAttribute="bottom" constant="16" id="7ea-2y-6Ld"/>
                             <constraint firstItem="MRf-cS-Jio" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.45" id="BFE-GH-rF3"/>
                             <constraint firstItem="PNT-If-pZZ" firstAttribute="top" secondItem="MRf-cS-Jio" secondAttribute="bottom" constant="16" id="IA1-QL-QHN"/>
                             <constraint firstItem="PNT-If-pZZ" firstAttribute="height" secondItem="MRf-cS-Jio" secondAttribute="height" multiplier="0.3" id="aCg-88-0cB"/>
@@ -42,7 +52,9 @@
                             <constraint firstItem="MRf-cS-Jio" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="o89-bj-kBu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MRf-cS-Jio" secondAttribute="trailing" constant="8" id="sjH-zr-Pth"/>
                             <constraint firstItem="MRf-cS-Jio" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="tH6-uI-RvP"/>
+                            <constraint firstItem="GJ7-iX-U0W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="tR4-rH-6ti"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PNT-If-pZZ" secondAttribute="trailing" constant="8" id="wOf-fq-qGr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GJ7-iX-U0W" secondAttribute="trailing" constant="8" id="zLx-MV-pYp"/>
                         </constraints>
                     </view>
                 </viewController>
